@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s1= s[0:4:3]
+    return s1
+print(main("good"))
